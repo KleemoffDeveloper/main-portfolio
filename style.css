@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+li, a, button
+{
+    font-family: "Quicksand";
+    font-weight: 500;
+    font-size: 16px;
+    color:#edf0f1;
+    text-decoration: none;
+}
+
+header
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo
+{
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.logo:hover
+{
+    color: yellow;
+    font-size: 115%;
+}
+
+.nav-links
+{
+    list-style: none;
+}
+
+.nav-links li
+{
+    display:inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a 
+{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover
+{
+    color:aqua;
+}
+
+button
+{
+    background-color:rgb(0, 197, 197);
+    padding: 9px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 1s ease 0s;
+}
+
+button:hover
+{
+    /* background-color: rgb(172, 172, 0); */
+    text-shadow: 1px 1px 0px #0000008e;
+}
+
+.main-body
+{
+    padding: 60px;
+    font-family: "Quicksand";
+    font-weight: 500;
+    text-decoration: none;
+    text-align:center;
+}
+
+.main-body a
+{
+    color:aqua;
+    transition: all 0.3s ease 0s;
+}
+
+.main-body a:hover
+{
+    color:yellow;
+}
+
+.main-body h1
+{
+    color: yellow;
+}
+
+.main-body p
+{
+    color:#edf0f1;
+    justify-content: center;
+    padding: 0px 28%;
+}
+
+#pic1
+{
+    max-width: 25%;
+    height: auto;
+    padding: 50px;
+}
+
+#pic2
+{
+    max-width: 25%;
+    height: auto;
+    padding: 25px;
+}
+
+#codewars-score-label
+{
+    padding: 9px 15px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.151);
+    color:rgb(255, 0, 0);
+    text-shadow: 0.5px 0.5px rgb(0, 0, 0);
+}
