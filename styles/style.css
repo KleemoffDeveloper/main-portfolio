@@ -5,7 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252A;
+    /* background:linear-gradient(to bottom, #24252A, grey); */
 }
 
 li, a, button
@@ -19,6 +19,7 @@ li, a, button
 
 header
 {
+    background:linear-gradient(to bottom, #24252A, rgb(22, 22, 22));
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -74,8 +75,21 @@ button:hover
     text-shadow: 1px 1px 0px #0000008e;
 }
 
+.sidebar
+{
+    width: 30%;
+    height: 100%;
+    background-color:white;
+}
+
+h3
+{
+    color:white;
+}
+
 .main-body
 {
+    background:linear-gradient(to bottom, #24252A, rgb(56, 56, 56));
     padding: 60px;
     font-family: "Quicksand";
     font-weight: 500;
@@ -106,14 +120,7 @@ button:hover
     padding: 0px 28%;
 }
 
-#pic1
-{
-    max-width: 25%;
-    height: auto;
-    padding: 50px;
-}
-
-#pic2
+img
 {
     max-width: 25%;
     height: auto;
