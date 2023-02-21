@@ -16,6 +16,15 @@ if(codewarsRefreshButton){
   });
 }
 
-let githubPicButton = document.getElementById("github-pic-button");
+// Must be in correct order to work properly
+let hyperlinks =
+["https://play.google.com/store/apps/dev?id=7304933132245725873&hl=en_US&gl=US",
+"https://github.com/KleemoffDeveloper",
+"https://kleemoff-developer.itch.io",
+"https://www.youtube.com/@pourmydrank"];
 
-githubPicButton.addEventListener("click", () => window.open("https://github.com/KleemoffDeveloper", "blank"));
+let hyperButtons = document.getElementsByClassName("pic-button");
+
+for(let i = 0; i < hyperButtons.length; i++){
+  hyperButtons[i].addEventListener("click", () => window.open(hyperlinks[i], "blank"));
+}
